@@ -90,7 +90,7 @@ body {
 	border-bottom: 3px solid #ff7500;
 }
 
-.site-header-btn {
+.btn {
 	font-weight: 700;
 	font-size: 13px;
 	line-height: 100%;
@@ -169,6 +169,7 @@ body {
 
 /* HERO END */
 
+/* why-akademnashr start */
 .why-akademnashr {
 	padding-top: 210px;
 	padding-bottom: 245px;
@@ -193,10 +194,12 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+
 .why-akadenashr-item {
 	max-width: 340px;
 	width: 100%;
 }
+
 .why-akademnashr-circle {
 	width: 100px;
 	height: 100px;
@@ -207,6 +210,7 @@ body {
 	justify-content: center;
 	margin-bottom: 32px;
 }
+
 .why-akadenashr-item-title {
 	font-family: 'Roboto Condensed';
 	font-weight: 700;
@@ -215,6 +219,7 @@ body {
 	letter-spacing: 0.5px;
 	margin-bottom: 12px;
 }
+
 .why-akadenashr-item-text {
 	max-width: 314px;
 	width: 100%;
@@ -223,3 +228,70 @@ body {
 	line-height: 150%;
 	letter-spacing: 0.5px;
 }
+/* why-akademnashr end */
+/* PROMOTIONS START */
+.promotions {
+	padding-top: 120px;
+	padding-bottom: 160px;
+}
+
+.promotions-container {
+	background-color: #252420;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding: 64px;
+}
+
+.promotions-info {
+	max-width: 440px;
+	width: 100%;
+}
+
+.promotions-info-title {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 120%;
+	letter-spacing: 0.5px;
+	margin-bottom: 24px;
+}
+
+.promotions-info-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+	margin-bottom: 12px;
+}
+
+.promotions-info-text1 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+	margin-bottom: 24px;
+}
+
+.promotions-info-text1 span {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0px;
+	color: #ff7500;
+}
+
+.promotions-img {
+	width: 440px;
+	height: 440px;
+	margin-top: -128px;
+}
+
+.promotions-img img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+/* PROMOTIONS END */
